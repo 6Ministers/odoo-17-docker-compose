@@ -2,10 +2,18 @@
 
 ## Quick Installation
 
-For Ubuntu 22.04
+Run for Ubuntu 22.04
+
 ``` bash
 sudo apt-get purge needrestart
 ```
+
+Install docker and docker-compose:
+
+``` bash
+curl -s https://raw.githubusercontent.com/6Ministers/odoo-17-docker-compose/master/setup.sh | sudo bash -s
+```
+
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10017` (default master password: `minhng.info`):
 
 ``` bash
